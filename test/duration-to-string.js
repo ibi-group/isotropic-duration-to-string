@@ -1,6 +1,6 @@
-import _chai from 'chai';
+import _chai from 'isotropic-dev-dependencies/lib/chai.js';
 import _durationToString from '../js/duration-to-string.js';
-import _mocha from 'mocha';
+import _mocha from 'isotropic-dev-dependencies/lib/mocha.js';
 import _moment from 'moment-timezone';
 
 const _closeEnough = (actual, expected) => {
